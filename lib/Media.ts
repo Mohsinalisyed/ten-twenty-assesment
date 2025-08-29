@@ -207,8 +207,8 @@ export class Media {
     if (viewport) this.viewport = viewport;
 
     const isMobile = this.screen.width <= 768;
-    const baseWidth = isMobile ? 500 : 900;
-    const baseHeight = isMobile ? 800 : 1000;
+    const baseWidth = isMobile ? 500 : 800;
+    const baseHeight = isMobile ? 800 : 1100;
 
     this.scale = Math.min(this.screen.height / 1440, 1);
     this.plane.scale.x = (this.viewport.width * (baseWidth * this.scale)) / this.screen.width;

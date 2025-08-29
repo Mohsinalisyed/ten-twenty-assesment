@@ -5,22 +5,22 @@ const description = "Welcome To TenTwenty Farms";
 
 export const slidesContent: IBanners[] = [
   {
-    image: "./assets/images/banner/banner-one.png",
+    image: "/assets/images/banner/banner-one.png",
     title,
     description,
   },
   {
-    image: "./assets/images/banner/banner-two.jpg",
+    image: "/assets/images/banner/banner-two.jpg",
     title,
     description,
   },
   {
-    image: "./assets/images/banner/banner-three.jpg",
+    image: "/assets/images/banner/banner-three.jpg",
     title,
     description,
   },
   {
-    image: "./assets/images/banner/banner-four.jpg",
+    image: "/assets/images/banner/banner-four.jpg",
     title,
     description,
   },

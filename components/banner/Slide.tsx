@@ -13,10 +13,8 @@ export const Slide = ({ slide, index, previousSlide }: BannerProps) => {
             alt={previousSlide.title}
             fill
             className="object-cover"
-            priority
-            unoptimized
           />
-          <div className="absolute inset-0 bg-black/30-" />
+          <div className="absolute inset-0 bg-black/30" />
         </div>
       )}
 
@@ -32,8 +30,6 @@ export const Slide = ({ slide, index, previousSlide }: BannerProps) => {
             alt={slide.title}
             fill
             className="object-cover"
-            priority
-            unoptimized
           />
           <div className="absolute inset-0 bg-black/30" />
         </div>
